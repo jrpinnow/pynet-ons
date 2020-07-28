@@ -1,4 +1,4 @@
-import gos
+import os
 from getpass import getpass
 from jnpr.junos import Device
 from jnpr.junos.exception import LockError
