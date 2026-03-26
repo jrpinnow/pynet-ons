@@ -1,0 +1,18 @@
+
+Use the "napalm_get" plugin to retrieve "interfaces_ip" from the
+four Juniper lab devices.
+
+Print the results out using the below Python code:
+
+-------
+    print()
+    for device_name, m_result in agg_result.items():
+        print("-" * 50)
+        print(device_name)
+        pprint(m_result[0].result)
+        print("-" * 50)
+    print()
+-------
+
+Where 'agg_result' is the result from the 'napalm_get' execution.
+
